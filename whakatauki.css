@@ -1,0 +1,35 @@
+/*****************************************************\
+| CSS for Random Whakatauki Generator                 |
+| Peter Sim, October, 2017                            |
+\*****************************************************/
+
+body {
+  background: url(images/fern.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  font-family: verdana, arial, sans-serif;
+  color: #f00;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48pt;
+  color: #ff0;
+  text-shadow: 3pt 3pt 3pt #333;
+}
+
+#whakatauki {
+  width: 80%;
+  margin: auto auto;
+  border: thin #000 solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 24pt;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
